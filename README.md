@@ -18,7 +18,8 @@ ssh-keygen -t rsa -C "你自己的github对应的邮箱地址"
 
 - String "bionic" is used for  Ubuntu 18.04  
 - Replace "bionic" with "xenial" for Ubuntu 16.04   
-* lsb_release -c  to check the code of Ubuntu version  
+* lsb_release -c   //to check the code of Ubuntu version  
+### Alibaba -1
 > deb http://cn.archive.ubuntu.com/ubuntu/ bionic main restricted  
 > deb http://cn.archive.ubuntu.com/ubuntu/ bionic-updates main restricted  
 > deb http://cn.archive.ubuntu.com/ubuntu/ bionic universe  
@@ -29,4 +30,31 @@ ssh-keygen -t rsa -C "你自己的github对应的邮箱地址"
 > deb http://security.ubuntu.com/ubuntu bionic-security main restricted  
 > deb http://security.ubuntu.com/ubuntu bionic-security universe  
 > deb http://security.ubuntu.com/ubuntu bionic-security multiverse  
+### Alibaba -2
+> deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse  
+> deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse  
+> deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse  
+> deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse  
+> deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse  
+> deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse  
+> deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse  
+> deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse  
+> deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse  
+> deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse  
+### Qing Hua -2
+> deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse  
+> deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse  
+> deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse  
+> deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse  
+> deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse  
+> deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse  
+> deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse  
+> deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse  
+> deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse  
+> deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse  
 
+### For github.com vist
+192.30.253.113 github.com  
+192.30.253.118 gist.github.com  
+192.30.253.119 gist.github.com  
+ 
